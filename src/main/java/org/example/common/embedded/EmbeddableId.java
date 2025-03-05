@@ -8,7 +8,7 @@ import java.util.Objects;
 @Embeddable
 public class EmbeddableId {
 
-    @Column(length = 19)
+    @Column
     private Long id;
 
     @Column(length=50)
