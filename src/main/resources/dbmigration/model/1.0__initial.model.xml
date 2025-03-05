@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <createTable name="product_history" pkName="pk_product_history">
+            <column name="id" type="bigint(19)" primaryKey="true"/>
+            <column name="other" type="varchar(50)" primaryKey="true"/>
+            <column name="name" type="varchar(50)"/>
+        </createTable>
+    </changeSet>
+</migration>

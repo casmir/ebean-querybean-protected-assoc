@@ -1,0 +1,10 @@
+ebean:
+  migration:
+    run: true
+    autoCreate: true
+
+datasource:
+  db:
+    username: ${db.username:sa}
+    password: ${db.password:}
+    url: ${db.url:jdbc:h2:mem:~/sampleDb}
